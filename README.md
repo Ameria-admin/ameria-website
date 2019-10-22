@@ -1,1 +1,3 @@
-# ameria-website
+# Ameria website
+
+### Official website of Ameria.
