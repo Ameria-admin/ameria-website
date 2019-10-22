@@ -8,7 +8,8 @@ module.exports = {
   },
   devServer: {
     publicPath: "/dist/",
-    hot: true
+    hot: true,
+    historyApiFallback: true
   },
   module: {
     rules: [

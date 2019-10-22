@@ -1,10 +1,13 @@
 import React from "react";
-import Home from "./components/Home";
+import Main from "./components/Main";
+import Header from "./components/Header";
+import "./global.css";
 
 const App = () => (
-  <div>
-    <Home />
-  </div>
+  <>
+    <Header />
+    <Main />
+  </>
 );
 
 export default App;
