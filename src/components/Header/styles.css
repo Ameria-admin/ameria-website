@@ -1,0 +1,10 @@
+.wrapper {
+  background: #4abde5;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex-basis: 30%;
+}
