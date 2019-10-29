@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import "./styles.css";
 
 const Home = () => (
@@ -6,9 +7,9 @@ const Home = () => (
     <img
       className="image"
       src="../../../assets/santa-monica.jpg"
-      alt="los-angeles"
+      alt="santa-monica"
     />
   </div>
 );
 
-export default Home;
+export default withRouter(Home);

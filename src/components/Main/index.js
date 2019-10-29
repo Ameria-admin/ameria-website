@@ -5,7 +5,7 @@ import About from "../About";
 import Schools from "../Schools";
 import Contact from "../Contact";
 
-const Main = () => (
+const Main = props => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/about" component={About} />
