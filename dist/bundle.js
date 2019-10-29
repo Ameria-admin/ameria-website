@@ -133,6 +133,17 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/components/Contact/styles.css":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/Contact/styles.css ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".form-wrapper {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  padding: 50px;\\n  width: 500px;\\n  background: white;\\n  border-radius: 5px;\\n  box-shadow: 1px 1px 2px 2px grey;\\n}\\n\\n.form {\\n  display: inherit;\\n}\\n\\n.submit-btn {\\n  cursor: pointer;\\n  animation: submit 3s linear infinite alternate;\\n  width: 100px;\\n  height: 40px;\\n  box-shadow: 2px 2px grey;\\n}\\n\\n@keyframes submit {\\n  0% {\\n    background: coral;\\n  }\\n  25% {\\n    background: lightskyblue;\\n  }\\n  50% {\\n    background: greenyellow;\\n  }\\n  75% {\\n    background: grey;\\n  }\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/Contact/styles.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/components/Header/styles.css":
 /*!********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/components/Header/styles.css ***!
@@ -162,7 +173,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Noto+Sans&display=swap);\", \"\"]);\n// Module\nexports.push([module.i, \"* {\\n  margin: 0 auto;\\n  font-family: \\\"Noto Sans\\\", sans-serif;\\n}\\n\\na {\\n  text-decoration: none;\\n  color: black;\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/global.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Noto+Sans&display=swap);\", \"\"]);\n// Module\nexports.push([module.i, \"* {\\n  margin: 0 auto;\\n  font-family: \\\"Noto Sans\\\", sans-serif;\\n}\\n\\na {\\n  text-decoration: none;\\n  color: black;\\n}\\n\\ninput {\\n  border-radius: 3px;\\n  margin-right: 10px;\\n}\\n\\nlabel {\\n  margin-right: 10px;\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/global.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -554,7 +565,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Contact = function Contact() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"form-wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"form\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"text\"\n  })));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Contact);\n\n//# sourceURL=webpack:///./src/components/Contact/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ \"./src/components/Contact/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar Contact = function Contact() {\n  var handleSubmit = function handleSubmit(e) {\n    e.preventDefault();\n    window.location.replace(\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\");\n  };\n\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"form-wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"form\", {\n    className: \"form\",\n    onSubmit: handleSubmit\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", null, \"Name\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"text\",\n    placeholder: \"Your name...\",\n    required: true\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", null, \"Email\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"text\",\n    placeholder: \"Your email...\",\n    required: true\n  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    className: \"submit-btn\",\n    type: \"submit\"\n  })));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Contact);\n\n//# sourceURL=webpack:///./src/components/Contact/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/Contact/styles.css":
+/*!*******************************************!*\
+  !*** ./src/components/Contact/styles.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./styles.css */ \"./node_modules/css-loader/dist/cjs.js!./src/components/Contact/styles.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/components/Contact/styles.css?");
 
 /***/ }),
 
