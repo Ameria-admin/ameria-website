@@ -5,7 +5,7 @@ import "./styles.css";
 const Header = () => (
   <div className="wrapper">
     <Link className="logo-link" to="/">
-      <img className="logo" src="../../assets/lafc-logo.png" alt="logo" />
+      <img className="logo" src="./../assets/lafc-logo.png" alt="logo" />
     </Link>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>

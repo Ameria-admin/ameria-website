@@ -4,7 +4,7 @@ const About = () => (
   <div>
     <img
       className="image"
-      src="../../assets/los-angeles.jpg"
+      src="./../assets/los-angeles.jpg"
       alt="los-angeles"
     />
   </div>
