@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./global.css";
 
 const App = props => (
-  <BrowserRouter>
+  <BrowserRouter basename="ameria-website">
     <Header />
     <Main />
   </BrowserRouter>
