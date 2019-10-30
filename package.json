@@ -5,6 +5,7 @@
   "repository": "git@github.com:Ameria-admin/ameria-website.git",
   "author": "dev <ameria.git@gmail.com>",
   "license": "MIT",
+  "homepage": "https://ameria-admin.github.io/ameria-website/",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open --mode development"
