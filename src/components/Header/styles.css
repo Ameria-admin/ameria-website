@@ -3,10 +3,11 @@
   height: 15vh;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .logo-link {
-  flex-basis: 0 1 30%;
+  flex-basis: 0 0 30%;
   height: 10vh;
 }
 
