@@ -29,8 +29,10 @@ const Header = () => (
       <Link to="/services">
         <Nav>Services</Nav>
       </Link>
+      <Link to="contact-us">
+        <Nav>Contact Us</Nav>
+      </Link>
     </div>
-    {/* <Link to="contact-us">Contact Us</Link> */}
   </div>
 );
 
