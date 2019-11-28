@@ -41,7 +41,7 @@ const Third = () => (
 
     <BlockWrapper>
       {/* <InfoBlock title="Address" content="address" /> */}
-      <InfoBlock title="Email" content="email" icon={faAt} />
+      <InfoBlock title="Email" content="ameriahk.info@gmail.com" icon={faAt} />
       <InfoBlock
         title="Phone/Whatsapp"
         content="+852 5193 7205"
